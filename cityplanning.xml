@@ -1,0 +1,67 @@
+<apml version="1.8">
+
+    <published_data>
+        http://gov.ohio.toledo/cspml/2020/
+        jgp://gov.ohio.toledo/cspml/2020
+    </published_data>    
+    
+<cspml version="1.0">
+    <subscribers list="jgp://gov.ohio.toledo.cityplanning/subscribers/approved"></subscriber>
+    <type type="forward_progressive_1.2">
+        <basis type="constraint">
+            <city>
+                <planning>
+                    <town></town>
+                </planning>
+            </city>
+        </basis>
+        <basis type="budgetary">
+            <support type="edu.wisconsin.primetime.webunit">
+                <unit type="education">
+                    
+                </unit>
+                <unit type="budgetary">
+                    <handler name="David Pierce PhD" contact="jgp://gov.us.ohio.toledo.cspml.contractors.directory/#443425253"></handler>
+                    <param>successful</param>
+                </unit>
+                <unit type="water treatment">
+                    <organization type="city water"></organization>
+                    <param>successful</param>
+                </unit>
+                <unit type="creditor system">
+                    <param>successful</param>
+                </unit>
+                <unit type="fuel standards">
+                    <param>successful</param>
+                </unit>
+                <unit type="criminal standards">
+                    <param>successful</param>
+                </unit>
+                <unit type="living standards">
+                    <param>successful</param>
+                </unit>                
+                <unit type="logistical">
+                    <param>jgp://authors/maxrupplin/2123422342</param>
+                </unit>
+                <unit type="dynamic issues">
+                    <param>jgp://authors/maxrupplin/2123422342</param>
+                </unit>
+            </support>
+        </basis>
+    </type>
+        
+    <reports>
+        <expectedreports>jgp://gov.ohio.toledo/2020/expectedreports.cprml</expectedreports>
+        <producers>
+            <citycouncil>
+                <class type="budget" id="0xfff4d9"></class>                
+            </citycouncil>
+            <cityplanning></cityplanning>
+        </producers>
+        <subscribers>
+            <citycouncil></citycouncil>
+            <cityplanning></cityplanning>
+            <external></external>
+        </subscribers>
+    </reports>
+</cspml>
